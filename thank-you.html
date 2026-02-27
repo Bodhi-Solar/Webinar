@@ -1,262 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>You're All Set! | Bodhi Webinar</title>
-  <style>
-    /* =========================================================
-       FONT FACES
-       ========================================================= */
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-Light.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-Light.woff') format('woff');
-      font-weight: 300;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-Regular.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-Regular.woff') format('woff');
-      font-weight: 400;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-Bold.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-Bold.woff') format('woff');
-      font-weight: 700;
-      font-style: normal;
-      font-display: swap;
-    }
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="Bodhi">
+<meta name="description" content="Thank you for registering for the webinar. We look forward to sharing tips that you can use in your business.">
+<title>Bodhi Webinar - Thank you! You're all set.</title>
+<link rel="shortcut icon" href="https://pages.bodhi.solar/hubfs/appHomescreen.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    /* =========================================================
-       RESET & BASE
-       ========================================================= */
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif;
-      font-weight: 400;
-      background-color: #001824;
-      color: #ffffff;
-      min-height: 100vh;
-    }
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+<style>
+/* =====================================================================
+   FONT FACES (self-hosted)
+   ===================================================================== */
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr Black';
+  src: url('fonts/HarmoniaSansProCyr-Black.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Black.woff') format('woff');
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr Light';
+  src: url('fonts/HarmoniaSansProCyr-Light.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Light.woff') format('woff');
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr Semi Bd';
+  src: url('fonts/HarmoniaSansProCyr-SemiBd.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-SemiBd.woff') format('woff');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr';
+  src: url('fonts/HarmoniaSansProCyr-Bold.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Bold.woff') format('woff');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr';
+  src: url('fonts/HarmoniaSansProCyr-Regular.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Regular.woff') format('woff');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
 
-    /* =========================================================
-       FULL-VIEWPORT LAYOUT
-       ========================================================= */
-    .ty-page {
-      position: relative;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 60px 24px;
-      background-image: url('images/sungageWebinar-optimized.jpg');
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-    }
-    .ty-page::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-color: rgba(0, 24, 36, 0.78);
-    }
-    .ty-content {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      max-width: 560px;
-      width: 100%;
-    }
+/* =====================================================================
+   BASE RESET
+   ===================================================================== */
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}
+.hs-breadcrumb-menu{list-style-type:none;margin:0;padding:0}
+.hs-featured-image-link{border:0}
+.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}
+@media (max-width:568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}
+.hs-screen-reader-text{clip:rect(1px,1px,1px,1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
 
-    /* =========================================================
-       LOGO
-       ========================================================= */
-    .ty-logo {
-      margin-bottom: 40px;
-    }
-    .ty-logo img {
-      height: 45px;
-      width: auto;
-    }
+/* =====================================================================
+   GRID LAYOUT (template_layout.min.css)
+   ===================================================================== */
+.row-fluid{width:100%;*zoom:1}.row-fluid:after,.row-fluid:before{content:"";display:table}.row-fluid:after{clear:both}.row-fluid [class*=span]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-left:2.127659574%;min-height:28px;width:100%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .span12{width:99.99999999%}.row-fluid .span6{width:48.936170208%}.row-fluid .span2{width:14.89361702%}.row-fluid .span10{width:82.978723396%}.container-fluid{*zoom:1}.container-fluid:after,.container-fluid:before{content:"";display:table}.container-fluid:after{clear:both}
+@media (max-width:767px){.row-fluid{width:100%}.row-fluid [class*=span]{display:block;float:none;margin-left:0;width:auto}}
+@media (min-width:768px) and (max-width:1139px){.row-fluid{width:100%}.row-fluid [class*=span]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-left:2.762430939%;min-height:28px;width:100%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .span12{width:99.999999993%}.row-fluid .span6{width:48.618784527%}.row-fluid .span2{width:14.364640883%}.row-fluid .span10{width:82.872928171%}}
+@media (min-width:1280px){.row-fluid{width:100%}.row-fluid [class*=span]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-left:2.564102564%;min-height:28px;width:100%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .span12{width:100%}.row-fluid .span6{width:48.718%}.row-fluid .span2{width:14.53%}.row-fluid .span10{width:82.906%}}
+.clearfix{*zoom:1}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.hide{display:none}.show{display:block}.hidden-desktop,.visible-phone,.visible-tablet{display:none !important}
+@media (max-width:767px){.visible-phone{display:inherit !important}.hidden-phone{display:none !important}.hidden-desktop{display:inherit !important}.visible-desktop{display:none !important}}
+@media (min-width:768px) and (max-width:1139px){.visible-tablet{display:inherit !important}.hidden-tablet{display:none !important}.hidden-desktop{display:inherit !important}.visible-desktop{display:none !important}}
 
-    /* =========================================================
-       CONFIRMATION TEXT
-       ========================================================= */
-    .ty-heading {
-      font-size: 42px;
-      font-weight: 700;
-      color: #ffffff;
-      margin-bottom: 16px;
-      line-height: 1.2;
-    }
-    .ty-body {
-      font-size: 18px;
-      font-weight: 400;
-      color: rgba(255,255,255,0.85);
-      line-height: 1.65;
-      margin-bottom: 40px;
-    }
+/* =====================================================================
+   MAIN STYLES (template_lp-style.min.css)
+   ===================================================================== */
+body{font-family:'Harmonia Sans Pro Cyr',sans-serif;font-size:16px;font-weight:400;margin:0;padding:0}
+*{box-sizing:border-box}
+h1,h2,h3,h4,h5,h6{margin-bottom:10px;margin-top:0}
+h1{font-size:50px;font-weight:600;line-height:70px}
+@media (max-width:1200px){h1{font-size:40px;line-height:50px}}
+@media (max-width:767px){h1{font-size:26px;line-height:30px}}
+h3{font-size:36px;font-weight:400;line-height:40px}
+.d-flex{display:-webkit-box;display:-ms-flexbox;display:flex}
+.align-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.justify-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.actions input,.cta-yellow{background-color:#ffd110;border-radius:10px;color:#000;display:inline-block;font-family:'Harmonia Sans Pro Cyr',sans-serif;font-size:18px;font-weight:600;height:50px;line-height:50px;min-width:222px;text-align:center;text-decoration:none;transition:all .3s ease-in-out}
+.actions input:focus,.actions input:hover,.cta-yellow:focus,.cta-yellow:hover{box-shadow:0 5px 10px -5px rgba(0,0,0,.35);opacity:.85}
+@media (max-width:767px){.actions input,.cta-yellow{border-radius:5px;font-size:16px;height:35px;line-height:35px;min-width:135px}}
+.container{float:none !important;margin:0 auto !important;max-width:1200px !important;padding:0 30px;width:100%}
+.header-container .container{max-width:1240px !important}
+.header-container{background:#fff;padding-bottom:15px;padding-top:15px;position:fixed;text-align:right;width:100%;z-index:9999999}
+.body-container-wrapper{padding-top:80px}
+/* Thank-you page overrides in lp-style */
+.thank-you-lp{background:#1fc58e;background:linear-gradient(0deg,#1fc58e,#fae62d);background-repeat:no-repeat;background-size:cover;height:100vh;min-height:100vh;width:100%}
+.thank-you-lp .body-container-wrapper{padding-top:40px}
+.thank-you-lp .header-container{background:transparent;position:relative;text-align:left}
+.thankyou-msg{text-align:center}
+.thankyou-msg .thnks-img img{max-width:280px !important}
+.thankyou-msg h1{font-size:75px;font-weight:700;line-height:70px;margin-bottom:10px;margin-top:20px}
+.thanks-msg{float:none !important;margin:0 auto !important;max-width:700px}
+.thanks-msg p{font-size:24px;line-height:34px;margin:0}
+.invite-text{font-size:24px;font-weight:700;padding-bottom:20px;padding-top:45px}
+@media (max-width:1200px){.thankyou-msg .thnks-img img{max-width:220px !important}.thankyou-msg h1{font-size:60px}.thanks-msg{max-width:650px}}
+@media (max-width:767px){.thankyou-msg .thnks-img img{max-width:160px !important}.thankyou-msg h1{font-size:52px;line-height:1}.thanks-msg p{font-size:20px;line-height:24px}}
+@media (max-width:374px){.thankyou-msg .thnks-img img{max-width:120px !important}.thank-you-lp .body-container-wrapper{padding-top:20px}.thankyou-msg h1{font-size:43px}}
+/* Social share */
+.social-share img[alt="Share on email"],
+.social-share img[alt="Share on facebook"],
+.social-share img[alt="Share on linkedin"],
+.social-share img[alt="Share on twitter"]{display:none}
+.social-share img[alt="Share on email"]+span,
+.social-share img[alt="Share on facebook"]+span,
+.social-share img[alt="Share on linkedin"]+span,
+.social-share img[alt="Share on twitter"]+span{background-repeat:no-repeat;background-size:contain;display:inline-block;height:35px;width:35px}
+.social-share a{display:inline-block;height:35px !important;margin-left:5px;margin-right:5px;width:35px !important}
+.social-share img[alt="Share on facebook"]+span{background-image:url(//4854223.fs1.hubspotusercontent-na1.net/hubfs/4854223/raw_assets/public/Bodhi%20LP%20Template/images/001-facebook-logo-white.png)}
+.social-share img[alt="Share on linkedin"]+span{background-image:url(//4854223.fs1.hubspotusercontent-na1.net/hubfs/4854223/raw_assets/public/Bodhi%20LP%20Template/images/002-linkedin-white.png)}
+.social-share img[alt="Share on twitter"]+span{background-image:url(//4854223.fs1.hubspotusercontent-na1.net/hubfs/4854223/raw_assets/public/Bodhi%20LP%20Template/images/003-twitter-white.png)}
+.social-share img[alt="Share on email"]+span{background-image:url(//4854223.fs1.hubspotusercontent-na1.net/hubfs/4854223/raw_assets/public/Bodhi%20LP%20Template/images/icon-mail-white.png)}
+/* icon-black overrides — page uses white icons on dark bg */
+.social-share.icon-black img[alt="Share on facebook"]+span{background-image:url(https://pages.bodhi.solar/hubfs/001-facebook-logo-white.png)}
+.social-share.icon-black img[alt="Share on linkedin"]+span{background-image:url(https://pages.bodhi.solar/hubfs/002-linkedin-white.png)}
+.social-share.icon-black img[alt="Share on twitter"]+span{background-image:url(https://pages.bodhi.solar/hubfs/003-twitter-white.png)}
+.social-share.icon-black img[alt="Share on email"]+span{background-image:url(https://pages.bodhi.solar/hubfs/004-gmail-white.png)}
+@media (max-width:1199px){.container{padding-left:20px;padding-right:20px}}
+@media (max-width:767px){.container{padding-left:30px;padding-right:30px}.logo img{height:31px;position:relative;top:3px;width:auto}}
+@media (max-width:375px){.container{padding-left:20px;padding-right:20px}}
 
-    /* =========================================================
-       SHARE SECTION
-       ========================================================= */
-    .ty-share-label {
-      font-size: 14px;
-      font-weight: 600;
-      color: rgba(255,255,255,0.6);
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      margin-bottom: 18px;
-    }
-    .ty-share-buttons {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-    .share-btn {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 20px;
-      border-radius: 4px;
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif;
-      font-size: 14px;
-      font-weight: 600;
-      color: #ffffff;
-      transition: opacity 0.2s, transform 0.15s;
-      white-space: nowrap;
-    }
-    .share-btn:hover {
-      opacity: 0.85;
-      transform: translateY(-1px);
-    }
-    .share-btn svg {
-      width: 18px;
-      height: 18px;
-      flex-shrink: 0;
-      fill: currentColor;
-    }
-    .share-facebook  { background-color: #1877F2; }
-    .share-linkedin  { background-color: #0077B5; }
-    .share-twitter   { background-color: #1DA1F2; }
-    .share-email     { background-color: #555555; }
+/* =====================================================================
+   FONT OVERRIDES
+   ===================================================================== */
+h1, h2 { font-family: 'Harmonia Sans Pro Cyr'; font-weight: 700; }
+h3, p, li { font-family: 'Harmonia Sans Pro Cyr'; font-weight: 400; }
 
-    /* =========================================================
-       BACK LINK
-       ========================================================= */
-    .ty-back {
-      margin-top: 36px;
-      font-size: 14px;
-      color: rgba(255,255,255,0.5);
-    }
-    .ty-back a {
-      color: #FFD110;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-    .ty-back a:hover {
-      color: #e6bc00;
-    }
+/* =====================================================================
+   THANK-YOU PAGE CUSTOM STYLES (from original inline <style>)
+   ===================================================================== */
+.thank-you-lp {
+  background: transparent;
+  background-image: url(images/sungageWebinar-optimized.jpg);
+  background-color: #001824;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+}
+.thankyou-msg .container {
+  padding-top: 0;
+  min-height: calc(100vh - 11vh);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media (max-width: 767px) {
+  .logo img {
+    width: auto !important;
+  }
+}
+.footer-container-wrapper {
+  display: none !important;
+}
+@media (min-width: 768px) {
+  .thankyou-msg .container {
+    min-height: calc(100vh - 500px);
+  }
+}
+</style>
 
-    /* =========================================================
-       RESPONSIVE
-       ========================================================= */
-    @media (max-width: 480px) {
-      .ty-heading {
-        font-size: 30px;
-      }
-      .ty-body {
-        font-size: 16px;
-      }
-      .ty-logo img {
-        height: 36px;
-      }
-    }
-  </style>
 </head>
-<body>
 
-  <div class="ty-page">
-    <div class="ty-content">
+<body class="thank-you-lp hs-landing-page hs-page">
 
-      <div class="ty-logo">
-        <a href="https://bodhi.solar" target="_blank" rel="noopener">
-          <img src="images/bodhiLogo.png" alt="Bodhi" width="150" height="45">
-        </a>
+<!-- ============================================================
+     HEADER (transparent, logo only, position:relative)
+     ============================================================ -->
+<div class="header-container-wrapper">
+  <div class="header-container container-fluid">
+    <div class="row-fluid-wrapper row-depth-1 row-number-1">
+      <div class="row-fluid">
+        <div class="span12 widget-span container">
+          <div class="row-fluid-wrapper row-depth-1 row-number-2">
+            <div class="row-fluid">
+              <div class="span12 widget-span logo">
+                <a href="https://bodhi.solar/" target="_blank" style="border-width:0px;border:0px;">
+                  <img src="images/bodhiLogo.png" width="150" height="45" alt="Bodhi" title="Bodhi">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <h1 class="ty-heading">Thanks! You're all set.</h1>
-      <p class="ty-body">You'll receive an email from Zoom momentarily with a calendar invite and instructions for logging into the session.</p>
-
-      <p class="ty-share-label">Invite your friends and colleagues to the event.</p>
-
-      <div class="ty-share-buttons">
-        <a
-          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html&utm_medium=social&utm_source=facebook"
-          target="_blank"
-          rel="noopener"
-          class="share-btn share-facebook"
-          aria-label="Share on Facebook"
-        >
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          Facebook
-        </a>
-
-        <a
-          href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html&utm_medium=social&utm_source=linkedin"
-          target="_blank"
-          rel="noopener"
-          class="share-btn share-linkedin"
-          aria-label="Share on LinkedIn"
-        >
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          LinkedIn
-        </a>
-
-        <a
-          href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html&utm_medium=social&utm_source=twitter"
-          target="_blank"
-          rel="noopener"
-          class="share-btn share-twitter"
-          aria-label="Share on Twitter"
-        >
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.953 4.57a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.06a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.936 4.936 0 0 0 4.604 3.417 9.867 9.867 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0 0 24 4.59z"/></svg>
-          Twitter
-        </a>
-
-        <a
-          href="mailto:?subject=Join%20me%20for%20this%20solar%20webinar&body=I%20thought%20you%27d%20find%20this%20webinar%20interesting%3A%20https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html&utm_medium=social&utm_source=email"
-          class="share-btn share-email"
-          aria-label="Share via Email"
-        >
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          Email
-        </a>
-      </div>
-
-      <p class="ty-back">
-        <a href="pre-paid-lease-webinar.html">← Back to webinar page</a>
-      </p>
-
     </div>
   </div>
+</div>
+
+<!-- ============================================================
+     BODY
+     ============================================================ -->
+<div class="body-container-wrapper">
+  <div class="body-container container-fluid">
+
+    <div class="row-fluid-wrapper row-depth-1 row-number-1">
+      <div class="row-fluid">
+        <div class="span12 widget-span thankyou-msg">
+
+          <div class="row-fluid-wrapper row-depth-1 row-number-2">
+            <div class="row-fluid">
+              <div class="span12 widget-span container">
+
+                <!-- HEADING -->
+                <div class="row-fluid-wrapper row-depth-1 row-number-4">
+                  <div class="row-fluid">
+                    <div class="span12 widget-span">
+                      <h1>Thanks! You're all set.</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- BODY TEXT -->
+                <div class="row-fluid-wrapper row-depth-1 row-number-5">
+                  <div class="row-fluid">
+                    <div class="span12 widget-span thanks-msg">
+                      <p>You'll receive an email from Zoom momentarily with a calendar invite and instructions for logging into the session.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- INVITE TEXT -->
+                <div class="row-fluid-wrapper row-depth-1 row-number-6">
+                  <div class="row-fluid">
+                    <div class="span12 widget-span invite-text">
+                      Invite your friends and colleagues to the event.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- SOCIAL SHARE -->
+                <div class="row-fluid-wrapper row-depth-1 row-number-7">
+                  <div class="row-fluid">
+                    <div class="span12 widget-span social-share icon-black">
+
+                      <a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html%3Futm_medium%3Dsocial%26utm_source%3Dfacebook" target="_blank" rel="noopener" style="width:24px;border-width:0px;border:0px;text-decoration:none;">
+                        <img src="./Bodhi-Webinar-Thank you_files/facebook-color.png" class="hs-image-widget hs-image-social-sharing-24" style="height:24px;width:24px;border-radius:3px;border-width:0px;border:0px;" width="24" alt="Share on facebook"><span></span>
+                      </a>
+
+                      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html%3Futm_medium%3Dsocial%26utm_source%3Dlinkedin" target="_blank" rel="noopener" style="width:24px;border-width:0px;border:0px;text-decoration:none;">
+                        <img src="./Bodhi-Webinar-Thank you_files/linkedin-color.png" class="hs-image-widget hs-image-social-sharing-24" style="height:24px;width:24px;border-radius:3px;border-width:0px;border:0px;" width="24" alt="Share on linkedin"><span></span>
+                      </a>
+
+                      <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html%3Futm_medium%3Dsocial%26utm_source%3Dtwitter&amp;url=https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html%3Futm_medium%3Dsocial%26utm_source%3Dtwitter&amp;source=tweetbutton&amp;text=" target="_blank" rel="noopener" style="width:24px;border-width:0px;border:0px;text-decoration:none;">
+                        <img src="./Bodhi-Webinar-Thank you_files/twitter-color.png" class="hs-image-widget hs-image-social-sharing-24" style="height:24px;width:24px;border-radius:3px;border-width:0px;border:0px;" width="24" alt="Share on twitter"><span></span>
+                      </a>
+
+                      <a href="mailto:?subject=Check+out+this+solar+webinar&amp;body=Check+out+https%3A%2F%2Fwebinar.bodhi.solar%2Fpre-paid-lease-webinar.html%3Futm_medium%3Dsocial%26utm_source%3Demail" target="_blank" rel="noopener" style="width:24px;border-width:0px;border:0px;text-decoration:none;">
+                        <img src="./Bodhi-Webinar-Thank you_files/email-color.png" class="hs-image-widget hs-image-social-sharing-24" style="height:24px;width:24px;border-radius:3px;border-width:0px;border:0px;" width="24" alt="Share on email"><span></span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div><!-- end container -->
+            </div>
+          </div>
+
+        </div><!-- end thankyou-msg -->
+      </div>
+    </div>
+
+  </div><!-- end body-container -->
+</div><!-- end body-container-wrapper -->
+
+<!-- Footer (hidden via CSS) -->
+<div class="footer-container-wrapper">
+  <div class="footer-container container-fluid"></div>
+</div>
 
 </body>
 </html>

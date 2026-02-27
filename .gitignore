@@ -1,1 +1,11 @@
 .DS_Store
+
+# HubSpot reference files (not part of the build)
+Bodhi Hubspot Webinar.html
+Bodhi Hubspot Webinar_files/
+Bodhi-Webinar-Thank you.html
+Bodhi-Webinar-Thank you_files/
+
+# Shell history & Claude session data
+.bash_history
+.claude/

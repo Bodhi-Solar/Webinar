@@ -1,652 +1,556 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Are Pre-Paid Leases the Answer in 2026? | Bodhi Webinar</title>
-  <meta name="description" content="A practical, installer-focused perspective at pre-paid leases and when solar loans still make sense. March 20th, 2026 at 12 p.m. CST.">
-  <style>
-    /* =========================================================
-       FONT FACES
-       ========================================================= */
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-Light.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-Light.woff') format('woff');
-      font-weight: 300;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-Regular.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-Regular.woff') format('woff');
-      font-weight: 400;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-SemiBd.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-SemiBd.woff') format('woff');
-      font-weight: 600;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-Bold.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-Bold.woff') format('woff');
-      font-weight: 700;
-      font-style: normal;
-      font-display: swap;
-    }
-    @font-face {
-      font-family: 'HarmoniaSansProCyr';
-      src: url('fonts/HarmoniaSansProCyr-Black.woff2') format('woff2'),
-           url('fonts/HarmoniaSansProCyr-Black.woff') format('woff');
-      font-weight: 900;
-      font-style: normal;
-      font-display: swap;
-    }
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="Bodhi">
+<meta name="description" content="A practical, installer-focused perspective at pre-paid leases and when solar loans still make sense. Join us March 20th, 2026 at 12 p.m. CST.">
+<title>Are Pre-Paid Leases the Answer in 2026? | Bodhi Webinar</title>
+<link rel="shortcut icon" href="https://pages.bodhi.solar/hubfs/appHomescreen.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    /* =========================================================
-       RESET & BASE
-       ========================================================= */
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif;
-      font-weight: 400;
-      background-color: #00142D;
-      color: #ffffff;
-      line-height: 1.6;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    ul {
-      list-style: none;
-    }
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+<style>
+/* =====================================================================
+   FONT FACES (self-hosted from fonts/ folder)
+   ===================================================================== */
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr Black';
+  src: url('fonts/HarmoniaSansProCyr-Black.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr Light';
+  src: url('fonts/HarmoniaSansProCyr-Light.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr Semi Bd';
+  src: url('fonts/HarmoniaSansProCyr-SemiBd.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-SemiBd.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr';
+  src: url('fonts/HarmoniaSansProCyr-Bold.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Cyr';
+  src: url('fonts/HarmoniaSansProCyr-Regular.woff2') format('woff2'),
+       url('fonts/HarmoniaSansProCyr-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-    /* =========================================================
-       HEADER
-       ========================================================= */
-    .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background-color: #00142D;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-      padding: 12px 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .site-header .logo img {
-      height: 45px;
-      width: auto;
-    }
-    .header-nav {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-    .btn-register {
-      display: inline-block;
-      background-color: #FFD110;
-      color: #00142D;
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif;
-      font-weight: 700;
-      font-size: 14px;
-      padding: 10px 24px;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background-color 0.2s, color 0.2s;
-      border: none;
-    }
-    .btn-register:hover {
-      background-color: #e6bc00;
-      color: #00142D;
-    }
-    .btn-contact {
-      color: #ffffff;
-      font-size: 14px;
-      font-weight: 400;
-      opacity: 0.8;
-      transition: opacity 0.2s;
-    }
-    .btn-contact:hover {
-      opacity: 1;
-    }
+/* =====================================================================
+   BASE RESET
+   ===================================================================== */
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}
+.hs-breadcrumb-menu{list-style-type:none;margin:0;padding:0}
+.hs-breadcrumb-menu-item{float:left;padding:10px 0 10px 10px}
+.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}
+.hs-featured-image-link{border:0}
+.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}
+@media (max-width:568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}
+.hs-screen-reader-text{clip:rect(1px,1px,1px,1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
 
-    /* =========================================================
-       HERO / BANNER
-       ========================================================= */
-    .hero {
-      position: relative;
-      min-height: 520px;
-      background-image: url('images/hero-bg.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      background-color: #00142D;
-      display: flex;
-      align-items: center;
-    }
-    .hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-color: rgba(0, 20, 45, 0.65);
-    }
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 700px;
-      padding: 60px 40px;
-    }
-    .hero-eyebrow {
-      display: inline-block;
-      background-color: #FFD110;
-      color: #00142D;
-      font-weight: 700;
-      font-size: 12px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      padding: 4px 12px;
-      border-radius: 2px;
-      margin-bottom: 20px;
-    }
-    .hero h1 {
-      font-size: 42px;
-      font-weight: 700;
-      line-height: 1.2;
-      color: #ffffff;
-      margin-bottom: 16px;
-    }
-    .hero-subheading {
-      font-size: 18px;
-      font-weight: 400;
-      color: rgba(255,255,255,0.85);
-      margin-bottom: 24px;
-      max-width: 560px;
-    }
-    .hero-meta {
-      margin-bottom: 32px;
-    }
-    .hero-meta li {
-      font-size: 16px;
-      font-weight: 600;
-      color: #FFD110;
-      padding: 3px 0;
-    }
-    .hero-meta li::before {
-      content: '• ';
-    }
-    .btn-cta {
-      display: inline-block;
-      background-color: #FFD110;
-      color: #00142D;
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif;
-      font-weight: 700;
-      font-size: 16px;
-      padding: 14px 36px;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background-color 0.2s;
-      border: none;
-      text-decoration: none;
-    }
-    .btn-cta:hover {
-      background-color: #e6bc00;
-    }
+/* =====================================================================
+   GRID LAYOUT (template_layout.min.css)
+   ===================================================================== */
+.row-fluid{width:100%;*zoom:1}.row-fluid:after,.row-fluid:before{content:"";display:table}.row-fluid:after{clear:both}.row-fluid [class*=span]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-left:2.127659574%;min-height:28px;width:100%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .span12{width:99.99999999%}.row-fluid .span11{width:91.489361693%}.row-fluid .span10{width:82.978723396%}.row-fluid .span9{width:74.468085099%}.row-fluid .span8{width:65.957446802%}.row-fluid .span7{width:57.446808505%}.row-fluid .span6{width:48.936170208%}.row-fluid .span5{width:40.425531911%}.row-fluid .span4{width:31.914893614%}.row-fluid .span3{width:23.404255317%}.row-fluid .span2{width:14.89361702%}.row-fluid .span1{width:6.382978723%}.container-fluid{*zoom:1}.container-fluid:after,.container-fluid:before{content:"";display:table}.container-fluid:after{clear:both}
+@media (max-width:767px){.row-fluid{width:100%}.row-fluid [class*=span]{display:block;float:none;margin-left:0;width:auto}}
+@media (min-width:768px) and (max-width:1139px){.row-fluid{width:100%;*zoom:1}.row-fluid:after,.row-fluid:before{content:"";display:table}.row-fluid:after{clear:both}.row-fluid [class*=span]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-left:2.762430939%;min-height:28px;width:100%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .span12{width:99.999999993%}.row-fluid .span11{width:91.436464082%}.row-fluid .span10{width:82.872928171%}.row-fluid .span9{width:74.30939226%}.row-fluid .span8{width:65.745856349%}.row-fluid .span7{width:57.182320438%}.row-fluid .span6{width:48.618784527%}.row-fluid .span5{width:40.055248616%}.row-fluid .span4{width:31.491712705%}.row-fluid .span3{width:22.928176794%}.row-fluid .span2{width:14.364640883%}.row-fluid .span1{width:5.801104972%}}
+@media (min-width:1280px){.row-fluid{width:100%;*zoom:1}.row-fluid:after,.row-fluid:before{content:"";display:table}.row-fluid:after{clear:both}.row-fluid [class*=span]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;margin-left:2.564102564%;min-height:28px;width:100%}.row-fluid [class*=span]:first-child{margin-left:0}.row-fluid .span12{width:100%}.row-fluid .span11{width:91.453%}.row-fluid .span10{width:82.906%}.row-fluid .span9{width:74.359%}.row-fluid .span8{width:65.812%}.row-fluid .span7{width:57.265%}.row-fluid .span6{width:48.718%}.row-fluid .span5{width:40.171%}.row-fluid .span4{width:31.624%}.row-fluid .span3{width:23.077%}.row-fluid .span2{width:14.53%}.row-fluid .span1{width:5.983%}}
+.clearfix{*zoom:1}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.hide{display:none}.show{display:block}.hidden,.invisible{visibility:hidden}.hidden{display:none}.hidden-desktop,.visible-phone,.visible-tablet{display:none !important}
+@media (max-width:767px){.visible-phone{display:inherit !important}.hidden-phone{display:none !important}.hidden-desktop{display:inherit !important}.visible-desktop{display:none !important}}
+@media (min-width:768px) and (max-width:1139px){.visible-tablet{display:inherit !important}.hidden-tablet{display:none !important}.hidden-desktop{display:inherit !important}.visible-desktop{display:none !important}}
 
-    /* =========================================================
-       SECTIONS - shared
-       ========================================================= */
-    .section {
-      padding: 70px 40px;
-    }
-    .section-inner {
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-    .section-heading {
-      font-size: 32px;
-      font-weight: 700;
-      color: #ffffff;
-      margin-bottom: 40px;
-      text-align: center;
-    }
+/* =====================================================================
+   MAIN STYLES (template_lp-style.min.css, fonts swapped to local)
+   ===================================================================== */
+body{font-family:'Harmonia Sans Pro Cyr',sans-serif;font-size:16px;font-weight:400;margin:0;padding:0}
+*{box-sizing:border-box}
+h1,h2,h3,h4,h5,h6{margin-bottom:10px;margin-top:0}
+h1{font-size:50px;font-weight:600;line-height:70px}
+@media (max-width:1200px){h1{font-size:40px;line-height:50px}}
+@media (max-width:767px){h1{font-size:26px;line-height:30px}}
+h3{font-size:36px;font-weight:400;line-height:40px}
+@media (max-width:1200px){h3{font-size:34px;line-height:38px}}
+@media (max-width:767px){h3{font-size:22px;line-height:30px}}
+.webinar-text ul,p{font-size:18px;line-height:30px}
+@media (max-width:1200px){.webinar-text ul,p{font-size:16px;line-height:26px}}
+@media (max-width:767px){.webinar-text ul,p{font-size:14px;line-height:24px}}
+.d-flex{display:-webkit-box;display:-ms-flexbox;display:flex}
+.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}
+.align-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.justify-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.justify-space-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.actions input,.cta-yellow{background-color:#ffd110;border-radius:10px;color:#000;display:inline-block;font-family:'Harmonia Sans Pro Cyr',sans-serif;font-size:18px;font-weight:600;height:50px;line-height:50px;min-width:222px;text-align:center;text-decoration:none;transition:all .3s ease-in-out}
+.actions input:focus,.actions input:hover,.cta-yellow:focus,.cta-yellow:hover{box-shadow:0 5px 10px -5px rgba(0,0,0,.35);opacity:.85}
+@media (max-width:767px){.actions input,.cta-yellow{border-radius:5px;font-size:16px;height:35px;line-height:35px;min-width:135px}}
+.container{float:none !important;margin:0 auto !important;max-width:1200px !important;padding:0 30px;width:100%}
+.header-container .container{max-width:1240px !important}
+.header-container{background:#fff;padding-bottom:15px;padding-top:15px;position:fixed;text-align:right;width:100%;z-index:9999999}
+.body-container-wrapper{padding-top:80px}
+.webinar-date:before{background-image:url(//4854223.fs1.hubspotusercontent-na1.net/hubfs/4854223/raw_assets/public/Bodhi%20LP%20Template/images/calendarIcon.png)}
+.webinar-time:before{background-image:url(//4854223.fs1.hubspotusercontent-na1.net/hubfs/4854223/raw_assets/public/Bodhi%20LP%20Template/images/clockIcon.png)}
+.webinar-content-area{padding-top:70px}
+.webinar-content-area h3{font-weight:600}
+@media (min-width:992px){.webinar-content-area .container>.row-fluid-wrapper>.row-fluid{-webkit-box-pack:justify;-ms-flex-pack:justify;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:space-between}.webinar-content-area{position:relative}.webinar-content-area:before{background:#000;bottom:0;content:"";height:95%;left:9%;margin:0 auto;pointer-events:none;position:absolute;right:0;top:7%;width:1px;z-index:-1}}
+.webinar-content-area .webinar-text{max-width:502px;text-align:justify;width:100%}
+.webinar-text ul{padding-left:15px}
+.webinar-content-area .webinar-register{max-width:412px;width:100%}
+.webinar-content-area .container>.row-fluid-wrapper>.row-fluid:after,.webinar-content-area .container>.row-fluid-wrapper>.row-fluid:before{display:none}
+.webinar-form{padding-top:30px}
+.webinar-form .hs-form-field{margin-bottom:35px}
+.webinar-form .input input,.webinar-form .input textarea{background:transparent !important;border:none;border-bottom:1px solid #979797;border-radius:0;font-family:'Harmonia Sans Pro Cyr',sans-serif;font-size:18px;outline:none;padding-bottom:8px;width:100%}
+.webinar-form .input textarea{font-size:18px}
+.actions{padding-top:40px;text-align:center}
+.actions input{-webkit-appearance:none;border:none;cursor:pointer;outline:none;border-radius:10px}
+.webinar-form .hs-button{border-radius:10px !important}
+.webinar-form .hs-error-msgs{color:red;font-size:16px;list-style:none;margin:0;padding:5px 0 0}
+.webinar-form .hs_error_rollup{display:none}
+.footer-container-wrapper{padding-top:60px}
+.footer-bottom{background:#25c68b;padding-bottom:24px;padding-top:24px}
+.footer-bottom .col-text,.footer-bottom .col-text p{font-size:18px;font-weight:600;line-height:22px;margin:0}
+.footer-bottom .col-text{padding-right:90px}
+.footer-bottom .col-cta,.footer-bottom .col-text{display:inline-block !important;float:none;vertical-align:middle !important;width:auto !important}
+.col-cta{position:relative;z-index:9999}
+@media (max-width:991px){.webinar-content-area{padding-top:40px}.webinar-content-area .webinar-register,.webinar-content-area .webinar-text{max-width:100%;width:100%}.webinar-content-area .webinar-register{border-top:1px solid #979797;margin-left:0;margin-top:30px;padding-top:30px}.footer-bottom .col-text{padding-right:0}}
+@media (max-width:1199px){.container{padding-left:20px;padding-right:20px}}
+@media (max-width:767px){.body-container-wrapper{padding-top:60px}.container{padding-left:30px;padding-right:30px}.header-container .container>.row-fluid-wrapper>.row-fluid{display:flex;justify-content:space-between}.header-container .container>.row-fluid-wrapper>.row-fluid:after,.header-container .container>.row-fluid-wrapper>.row-fluid:before{display:none}.logo img{height:31px;position:relative;top:3px;width:auto}.lp-banner-area{min-height:auto}.lp-banner-area .col-left{padding-bottom:40px}.lp-banner-area .col-right img{max-width:240px !important;width:100% !important}.lp-banner-area h1 br{display:none}.lp-banner-area .col-left p{font-size:18px;line-height:22px}.banner-cta-area{text-align:center}.webinar-detail{padding-bottom:15px;padding-top:15px}.sponsor-section{padding-bottom:25px;padding-top:22px}.sponsor-section ul,.webinar-detail ul{-ms-flex-wrap:wrap;flex-wrap:wrap}.webinar-detail ul li{font-size:18px;line-height:35px;padding-left:30px}.webinar-date:before,.webinar-time:before{height:20px;width:20px}.webinar-detail ul li:first-child{flex:0 0 100%;padding:0;text-align:center;width:100%}.webinar-detail ul li:not(:first-child){width:auto}.panelist-section h3{line-height:30px}.pthumb{height:80px;margin-bottom:0;margin-left:0;margin-right:20px;min-width:80px;width:80px}.panelist-items h2,.panelist-items h3{font-size:14px;line-height:1;margin:0;text-align:left}.panelist-items h2{font-size:16px;margin-bottom:5px}.panelist-items ul{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:0 auto;max-width:285px;width:100%}.panelist-items ul li{align-items:center;display:flex;flex:0 0 100%;margin-bottom:40px;padding:0;width:100%}.panelist-items ul li:last-child{margin-bottom:10px}.webinar-detail ul li.webinar-date{padding-right:16px}.sponsor-section li{font-size:14px;line-height:17px;width:100% !important}.sponsor-section li+li{margin-top:25px}.sponsor-section li img{max-height:30px;object-fit:contain}.webinar-form .input input,.webinar-form .input textarea{font-size:14px}.footer-bottom .col-text{display:none !important}}
+@media (max-width:374px){.webinar-detail ul li{font-size:15px}}
+@media (max-width:375px){.container{padding-left:20px;padding-right:20px}}
 
-    /* =========================================================
-       PANELISTS
-       ========================================================= */
-    .panelists-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 32px;
-    }
-    .panelist-card {
-      text-align: center;
-    }
-    .panelist-photo-wrap {
-      position: relative;
-      display: inline-block;
-      margin-bottom: 16px;
-    }
-    .panelist-photo-wrap img {
-      width: 160px;
-      height: 160px;
-      object-fit: cover;
-      border-radius: 50%;
-      display: block;
-    }
-    .panelist-linkedin {
-      position: absolute;
-      bottom: 4px;
-      right: 4px;
-      width: 30px;
-      height: 30px;
-      background-color: #0077B5;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background-color 0.2s;
-    }
-    .panelist-linkedin:hover {
-      background-color: #005f92;
-    }
-    .panelist-linkedin svg {
-      width: 16px;
-      height: 16px;
-      fill: #ffffff;
-    }
-    .panelist-name {
-      font-size: 18px;
-      font-weight: 700;
-      color: #ffffff;
-      margin-bottom: 4px;
-    }
-    .panelist-role {
-      font-size: 14px;
-      font-weight: 400;
-      color: rgba(255,255,255,0.7);
-      line-height: 1.4;
-    }
-    .panelist-tag {
-      display: inline-block;
-      font-size: 12px;
-      font-weight: 600;
-      color: #FFD110;
-      margin-top: 6px;
-      letter-spacing: 0.5px;
-    }
+/* =====================================================================
+   BANNER (module_lp-banner-area.min.css)
+   ===================================================================== */
+.lp-banner-area{display:flex;justify-content:center;background:#00142D;min-height:547px;padding-top:25px;padding-bottom:25px;overflow:hidden}
+.lp-banner-area .col-left{max-width:769px;width:100%;padding-right:30px}
+@media(min-width:1367px){.lp-banner-area .col-left{min-width:769px}.lp-banner-area .col-right{min-width:500px}}
+.lp-banner-area .col-right{text-align:center}
+.lp-banner-area .col-left p{font-size:26px;line-height:36px;margin-top:0}
+@media(max-width:991px){.lp-banner-area{padding-top:35px;padding-bottom:0}.lp-banner-area .container{flex-wrap:wrap}.lp-banner-area .col-left{padding-right:0;padding-bottom:20px}.lp-banner-area .col-right{text-align:center;width:100%}.lp-banner-area .col-right img{max-width:380px !important;margin:0 auto !important;display:block !important}.lp-banner-area .col-left p{font-size:24px;line-height:30px}}
 
-    /* =========================================================
-       ABOUT
-       ========================================================= */
-    .about-section {
-      background-color: rgba(255,255,255,0.04);
-    }
-    .about-content {
-      max-width: 760px;
-      margin: 0 auto;
-    }
-    .about-content p {
-      font-size: 17px;
-      line-height: 1.75;
-      color: rgba(255,255,255,0.88);
-      margin-bottom: 24px;
-    }
-    .about-content strong {
-      color: #ffffff;
-      font-weight: 700;
-    }
-    .about-list {
-      margin-top: 8px;
-    }
-    .about-list li {
-      font-size: 16px;
-      color: rgba(255,255,255,0.88);
-      padding: 8px 0 8px 24px;
-      position: relative;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-    }
-    .about-list li:last-child {
-      border-bottom: none;
-    }
-    .about-list li::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 8px;
-      height: 8px;
-      background-color: #FFD110;
-      border-radius: 50%;
-    }
+/* Banner background/color overrides */
+.lp-banner-area{background-repeat:no-repeat !important;background-size:cover !important;background-position:center center !important;background-color:transparent !important}
+.lp-banner-area{color:#ffffff}
 
-    /* =========================================================
-       SPONSORS
-       ========================================================= */
-    .sponsors-section {
-      padding: 50px 40px;
-      border-top: 1px solid rgba(255,255,255,0.1);
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-    .sponsors-label {
-      text-align: center;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.5);
-      margin-bottom: 28px;
-    }
-    .sponsors-logos {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 48px;
-    }
-    .sponsors-logos img {
-      max-height: 50px;
-      width: auto;
-      opacity: 0.85;
-      filter: brightness(0) invert(1);
-      transition: opacity 0.2s;
-    }
-    .sponsors-logos img:hover {
-      opacity: 1;
-    }
+/* =====================================================================
+   WEBINAR DETAIL BAR (module_Webinar-detail.min.css)
+   ===================================================================== */
+.webinar-detail{background-color:#e9e9e9;padding:30px 0}
+.webinar-detail ul{list-style:none;margin:0;padding:0}
+.webinar-detail ul li{font-size:26px;line-height:40px;font-weight:400}
+.webinar-detail ul li:first-child{font-weight:600}
+.webinar-date,.webinar-time{position:relative;padding-left:75px}
+.webinar-date:before,.webinar-time:before{content:"";display:inline-block;background-repeat:no-repeat;background-size:contain;background-position:center center;position:absolute;left:0;top:50%;transform:translateY(-50%);width:40px;height:40px}
+@media(max-width:991px){.webinar-detail ul li{font-size:24px;line-height:30px}.webinar-date,.webinar-time{padding-left:50px}.webinar-date:before,.webinar-time:before{width:30px;height:30px}}
 
-    /* =========================================================
-       REGISTRATION
-       ========================================================= */
-    .register-section {
-      padding: 70px 40px;
-    }
-    .register-inner {
-      max-width: 640px;
-      margin: 0 auto;
-    }
-    .register-section .section-heading {
-      margin-bottom: 32px;
-    }
+/* =====================================================================
+   PANELIST SECTION (module_Panelist_Section.min.css)
+   ===================================================================== */
+.panelist-section{padding-top:90px;padding-bottom:90px;background-repeat:no-repeat;background-size:360px;background-position:left center}
+.panelist-section .container{max-width:1440px !important}
+@media(max-width:1319px){.panelist-section{background-image:none !important}}
+@media(max-width:1024px){.panelist-section{padding-top:40px;padding-bottom:40px}.panelist-content{margin-left:auto !important;margin-right:0 !important}}
+@media(max-width:991px){.panelist-section{padding-top:30px;padding-bottom:30px}.panelist-content{margin:0 auto !important}}
+@media(min-width:768px){.panelist-section .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}}
+.panelist-section h3{line-height:60px;font-weight:700}
+.panelist-content{text-align:center;width:100%;max-width:1045px}
+.panelist-items ul{list-style:none;margin:0;padding:20px 0 0 0}
+.panelist-items ul li{width:33.3333333%;flex:0 0 33.3333333%;padding:0 20px;margin-bottom:40px}
+.panelist-items h2,.panelist-items h3{font-size:26px;line-height:34px;margin:0}
+.panelist-items h2 a,.panelist-items h3 a{color:inherit;text-decoration:none}
+.panelist-items h2 a:hover,.panelist-items h3 a:hover{text-decoration:underline}
+.panelist-items h3{font-weight:400}
+.pthumb{width:120px;height:120px;border-radius:100%;overflow:hidden;margin-left:auto;margin-right:auto;margin-bottom:10px}
+.pthumb img{width:100%;height:auto}
+@media(max-width:991px){.panelist-items h2,.panelist-items h3{font-size:24px;line-height:30px}}
 
-    /* HubSpot form overrides */
-    .hs-form-container .hs-form fieldset {
-      max-width: 100% !important;
-    }
-    .hs-form-container .hs-form .hs-field-desc,
-    .hs-form-container .hs-form label {
-      color: rgba(255,255,255,0.85) !important;
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif !important;
-      font-size: 14px !important;
-      font-weight: 600 !important;
-    }
-    .hs-form-container .hs-form input[type="text"],
-    .hs-form-container .hs-form input[type="email"],
-    .hs-form-container .hs-form input[type="tel"],
-    .hs-form-container .hs-form input[type="number"],
-    .hs-form-container .hs-form select,
-    .hs-form-container .hs-form textarea {
-      background-color: rgba(255,255,255,0.08) !important;
-      border: 1px solid rgba(255,255,255,0.25) !important;
-      color: #ffffff !important;
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif !important;
-      font-size: 15px !important;
-      padding: 10px 14px !important;
-      border-radius: 4px !important;
-      width: 100% !important;
-      transition: border-color 0.2s !important;
-    }
-    .hs-form-container .hs-form input:focus,
-    .hs-form-container .hs-form select:focus,
-    .hs-form-container .hs-form textarea:focus {
-      outline: none !important;
-      border-color: #FFD110 !important;
-    }
-    .hs-form-container .hs-form input::placeholder,
-    .hs-form-container .hs-form textarea::placeholder {
-      color: rgba(255,255,255,0.35) !important;
-    }
-    .hs-form-container .hs-form select option {
-      background-color: #00142D;
-      color: #ffffff;
-    }
-    .hs-form-container .hs-form .hs-button {
-      background-color: #FFD110 !important;
-      color: #00142D !important;
-      font-family: 'HarmoniaSansProCyr', 'Helvetica Neue', Arial, sans-serif !important;
-      font-weight: 700 !important;
-      font-size: 16px !important;
-      padding: 14px 36px !important;
-      border: none !important;
-      border-radius: 4px !important;
-      cursor: pointer !important;
-      width: 100% !important;
-      margin-top: 8px !important;
-      transition: background-color 0.2s !important;
-    }
-    .hs-form-container .hs-form .hs-button:hover {
-      background-color: #e6bc00 !important;
-    }
-    .hs-form-container .hs-form .hs-error-msgs {
-      color: #ff6b6b !important;
-      font-size: 12px !important;
-      margin-top: 4px !important;
-    }
-    .hs-form-container .hs-form .hs-richtext {
-      color: rgba(255,255,255,0.6) !important;
-      font-size: 12px !important;
-    }
-    .hs-form-container .hs-form .inputs-list label {
-      color: rgba(255,255,255,0.85) !important;
-      font-weight: 400 !important;
-    }
+/* =====================================================================
+   SPONSOR SECTION (module_sponsor-section.min.css)
+   ===================================================================== */
+.sponsor-section{background-color:#ffd110;padding-top:30px;padding-bottom:30px}
+.sponsor-section ul{margin:0;padding:0;list-style:none}
+.sponsor-section li{font-size:26px;line-height:31px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.sponsor-section li img{max-height:45px;width:100%}
+.sponsor-section li:nth-child(2) img{max-width:236px !important}
+.sponsor-section li:nth-child(3) img{max-width:260px !important;position:relative;top:3px}
+.sponsor-section li:last-child img{max-width:125px !important}
+@media(max-width:1199px){.sponsor-section li img{padding:0 20px}}
+@media(max-width:1023px){.sponsor-section li{font-size:20px}.sponsor-section li img{max-height:28px}}
+@media(max-width:767px){.sponsor-section li:nth-child(3) img{top:2px}}
 
-    /* =========================================================
-       RESPONSIVE
-       ========================================================= */
-    @media (max-width: 900px) {
-      .panelists-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
-      }
-    }
-    @media (max-width: 767px) {
-      .hero {
-        min-height: 460px;
-      }
-      .hero-content {
-        padding: 50px 24px;
-      }
-      .hero h1 {
-        font-size: 30px;
-      }
-      .hero-subheading {
-        font-size: 16px;
-      }
-      .section {
-        padding: 50px 24px;
-      }
-      .sponsors-section {
-        padding: 40px 24px;
-      }
-      .sponsors-logos img {
-        max-height: 35px;
-      }
-      .section-heading {
-        font-size: 26px;
-      }
-      .site-header {
-        padding: 12px 20px;
-      }
-      .btn-contact {
-        display: none;
-      }
-    }
-    @media (max-width: 568px) {
-      .panelists-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 28px;
-      }
-      .panelist-photo-wrap img {
-        width: 120px;
-        height: 120px;
-      }
-      .hero h1 {
-        font-size: 26px;
-      }
-    }
-  </style>
+/* =====================================================================
+   CUSTOM OVERRIDES (from original inline <style> in <head>)
+   ===================================================================== */
+h1, h2 {
+  font-family: 'Harmonia Sans Pro Cyr';
+  font-weight: 700;
+}
+h3, p, li {
+  font-family: 'Harmonia Sans Pro Cyr';
+  font-weight: 400;
+}
+.cta-yellow, .actions input, .panelist-content > h3 {
+  font-family: 'Harmonia Sans Pro Cyr';
+  font-weight: 700;
+}
+.panelist-section .container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.footer-bottom {
+  background: #00142D;
+  color: #FFD110;
+}
+.footer-bottom .container > .row-fluid-wrapper > .row-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.footer-bottom .cta-yellow {
+  background: transparent;
+  border: 1px solid #FFD110;
+  color: #FFD110;
+}
+.footer-bottom .cta-yellow:hover {
+  background: #FFD110;
+  border: 1px solid #FFD110;
+  color: #000;
+}
+@media (max-width: 767px) {
+  .lp-banner-area {
+    min-height: 460px;
+  }
+  .banner-cta-area {
+    margin-top: 50px;
+  }
+  .sponsor-section li img {
+    max-height: 35px;
+  }
+}
+
+/* =====================================================================
+   HUBSPOT FORM FIELD STYLES (from original hs-form inline style)
+   ===================================================================== */
+.hs-form fieldset{border:0;padding:0;margin:0;max-width:500px}
+.hs-form fieldset.form-columns-1 .hs-input{width:95%}
+.hs-form fieldset.form-columns-1 .input{margin-right:8px}
+.hs-form fieldset.form-columns-2 .hs-form-field{width:50%;float:left}
+.hs-form fieldset.form-columns-2 .input{margin-right:8px}
+.hs-form label.hs-hidden{visibility:hidden}
+.hs-form .hs-field-desc{width:100%}
+.hs-custom-style .hs-input,.hs-custom-style fieldset{max-width:100%}
+.hs-custom-style>div>div:last-of-type .hs-input:not([type=checkbox]):not([type=radio]),.hs-custom-style fieldset>div:last-of-type .hs-input:not([type=checkbox]):not([type=radio]){width:100%;max-width:100%}
+.hs-custom-style>div input:not([type=image]):not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):not([type=file]),.hs-custom-style fieldset input:not([type=image]):not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):not([type=file]){box-sizing:border-box;padding:0 15px;min-height:27px}
+.legal-consent-container .field.hs-form-field{margin-bottom:8px}
+.legal-consent-container .hs-error-msgs label{color:#f2545b}
+.hubspot-link__container{font-size:14px;padding-bottom:40px;position:relative;color:#9fa0a2;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}
+.hubspot-link-text{color:#00a4bd;font-weight:400}
+</style>
 </head>
-<body>
 
-  <!-- ===================== HEADER ===================== -->
-  <header class="site-header">
-    <a href="https://bodhi.solar" class="logo" target="_blank" rel="noopener">
-      <img src="images/bodhiLogo.png" alt="Bodhi" width="150" height="45">
-    </a>
-    <nav class="header-nav">
-      <a href="mailto:info@bodhi.solar" class="btn-contact">Contact Us</a>
-      <a href="#register" class="btn-register">Register</a>
-    </nav>
-  </header>
+<body class="hs-landing-page hs-page">
 
-  <!-- ===================== HERO ===================== -->
-  <section class="hero">
-    <div class="hero-content">
-      <span class="hero-eyebrow">Special Webinar</span>
-      <h1>Are pre-paid leases the answer in 2026?</h1>
-      <p class="hero-subheading">A practical, installer-focused perspective at pre-paid leases and when solar loans still make sense.</p>
-      <ul class="hero-meta">
-        <li>Are pre-paid leases the answer?</li>
-        <li>March 20th, 2026</li>
-        <li>12 p.m. CST</li>
-      </ul>
-      <a href="#register" class="btn-cta">Register Now</a>
-    </div>
-  </section>
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<div class="header-container-wrapper">
+  <div class="header-container container-fluid">
+    <div class="row-fluid-wrapper row-depth-1 row-number-1">
+      <div class="row-fluid">
+        <div class="span12 widget-span container">
+          <div class="row-fluid-wrapper row-depth-1 row-number-2">
+            <div class="row-fluid">
 
-  <!-- ===================== PANELISTS ===================== -->
-  <section class="section">
-    <div class="section-inner">
-      <h2 class="section-heading">Our expert panelists</h2>
-      <div class="panelists-grid">
+              <div class="span2 widget-span logo">
+                <a href="https://bodhi.solar/" target="_blank" style="border-width:0px;border:0px;">
+                  <img src="images/bodhiLogo.png" width="150" height="45" alt="Bodhi" title="Bodhi">
+                </a>
+              </div>
 
-        <div class="panelist-card">
-          <div class="panelist-photo-wrap">
-            <img src="images/stan_panelist.jpg" alt="Stan Pipkin">
-            <a href="https://www.linkedin.com/in/stan-pipkin-4a032115/" target="_blank" rel="noopener" class="panelist-linkedin" aria-label="Stan Pipkin on LinkedIn">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            </a>
+              <div class="span10 widget-span cta-header">
+                <a href="#register" class="cta-yellow smooth-scroll">Register</a>
+              </div>
+
+            </div>
           </div>
-          <p class="panelist-name">Stan Pipkin</p>
-          <p class="panelist-role">CEO, Lighthouse Solar</p>
         </div>
-
-        <div class="panelist-card">
-          <div class="panelist-photo-wrap">
-            <img src="images/rachel-1.jpeg" alt="Rachel Finn">
-            <a href="https://www.linkedin.com/in/finnrachel/" target="_blank" rel="noopener" class="panelist-linkedin" aria-label="Rachel Finn on LinkedIn">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            </a>
-          </div>
-          <p class="panelist-name">Rachel Finn</p>
-          <p class="panelist-role">Finance Specialist, Greentech Renewables</p>
-        </div>
-
-        <div class="panelist-card">
-          <div class="panelist-photo-wrap">
-            <img src="images/dema.jpeg" alt="Dema Headley">
-            <a href="https://www.linkedin.com/in/demaheadley/" target="_blank" rel="noopener" class="panelist-linkedin" aria-label="Dema Headley on LinkedIn">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            </a>
-          </div>
-          <p class="panelist-name">Dema Headley</p>
-          <p class="panelist-role">SVP Digital Banking, Climate First Bank</p>
-        </div>
-
-        <div class="panelist-card">
-          <div class="panelist-photo-wrap">
-            <img src="images/scottNguyen.png" alt="Scott Nguyen">
-            <a href="https://www.linkedin.com/in/scottvinhnguyen/" target="_blank" rel="noopener" class="panelist-linkedin" aria-label="Scott Nguyen on LinkedIn">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            </a>
-          </div>
-          <p class="panelist-name">Scott Nguyen</p>
-          <p class="panelist-role">Moderator, Bodhi</p>
-          <span class="panelist-tag">Moderator</span>
-        </div>
-
       </div>
     </div>
-  </section>
+  </div>
+</div>
 
-  <!-- ===================== ABOUT ===================== -->
-  <section class="section about-section">
-    <div class="section-inner">
-      <h2 class="section-heading">About the webinar</h2>
-      <div class="about-content">
-        <p>Pre-paid leases are suddenly at the center of residential solar conversations in 2026. With the end of 25D and homeowner economics shifting, many installers are asking the same question: <strong>When do pre-paid leases win over loans, and what does that mean for close rates, cash flow, and operations?</strong></p>
-        <p>This webinar brings together experts from across the solar finance ecosystem to give installers a clear-eyed, tactical look at how to navigate the shift.</p>
-        <ul class="about-list">
-          <li>When pre-paid leases beat loans and when they don't</li>
-          <li>What changes operationally after the sale</li>
-          <li>How to position it with homeowners</li>
-          <li>Q&amp;A with tactical advice for solar installers</li>
-        </ul>
+<!-- ============================================================
+     BODY
+     ============================================================ -->
+<div class="body-container-wrapper">
+  <div class="body-container container-fluid">
+
+    <!-- BANNER -->
+    <div class="row-fluid-wrapper row-depth-1 row-number-1">
+      <div class="row-fluid">
+        <div class="span12 widget-span">
+          <div class="lp-banner-area d-flex justify-center" style="background-image:url(images/hero-bg.jpg);">
+            <div class="container d-flex align-center">
+              <div class="col-left">
+                <h3 style="font-size:20px;">SPECIAL WEBINAR</h3>
+                <h1>Are pre-paid leases the answer in 2026?</h1>
+                <p><span>A practical, installer-focused perspective at pre-paid leases and when solar loans still make sense.</span></p>
+                <div class="banner-cta-area">
+                  <a href="#register" class="cta-yellow register-btn smooth-scroll">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- ===================== SPONSORS ===================== -->
-  <section class="sponsors-section">
-    <div class="section-inner">
-      <p class="sponsors-label">Presented with</p>
-      <div class="sponsors-logos">
-        <img src="images/greentech-1.png" alt="Greentech Renewables">
-        <img src="images/climate_logo.png" alt="Climate First Bank">
-        <img src="images/bodhi_Blue_225.png" alt="Bodhi">
+    <!-- WEBINAR DETAIL BAR -->
+    <div class="row-fluid-wrapper row-depth-1 row-number-2">
+      <div class="row-fluid">
+        <div class="span12 widget-span">
+          <div class="webinar-detail">
+            <div class="container">
+              <ul class="d-flex align-center justify-space-between">
+                <li>Are pre-paid leases the answer?</li>
+                <li class="webinar-date">March 20th, 2026</li>
+                <li class="webinar-time">12 p.m. CST</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- ===================== REGISTRATION ===================== -->
-  <section class="section register-section" id="register">
-    <div class="register-inner">
-      <h2 class="section-heading">Register for this webinar</h2>
-      <div class="hs-form-container">
-        <script charset="utf-8" type="text/javascript" src="//js-na2.hsforms.net/forms/embed/v2.js"></script>
-        <script>
-          hbspt.forms.create({
-            portalId: "4854223",
-            formId: "1ea72a33-5c6a-4a80-9cda-db88fd62152c",
-            region: "na2",
-            redirectUrl: "https://webinar.bodhi.solar/thank-you.html"
-          });
-        </script>
+    <!-- PANELIST SECTION -->
+    <div class="row-fluid-wrapper row-depth-1 row-number-3">
+      <div class="row-fluid">
+        <div class="span12 widget-span">
+          <div class="panelist-section d-flex justify-center">
+            <div class="container">
+              <div class="panelist-content">
+                <h3>Our expert panelists</h3>
+                <div class="panelist-items">
+                  <ul class="d-flex flex-wrap justify-center">
+
+                    <li>
+                      <div class="pthumb">
+                        <img src="images/stan_panelist.jpg" alt="Stan Pipkin" loading="lazy" style="max-width:100%;height:auto;">
+                      </div>
+                      <div class="pdetail">
+                        <h2><a href="https://www.linkedin.com/in/stan-pipkin-4a032115/" target="_blank">Stan Pipkin</a></h2>
+                        <h3>CEO <a href="https://lighthousesolartx.com/" target="_blank"><br>Lighthouse Solar</a></h3>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="pthumb">
+                        <img src="images/rachel-1.jpeg" alt="Rachel Finn" loading="lazy" style="max-width:100%;height:auto;">
+                      </div>
+                      <div class="pdetail">
+                        <h2><a href="https://www.linkedin.com/in/finnrachel/" target="_blank">Rachel Finn</a></h2>
+                        <h3>Finance Specialist <a href="https://www.greentechrenewables.com/" target="_blank"><br>Greentech Renewables</a></h3>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="pthumb">
+                        <img src="images/dema.jpeg" alt="Dema Headley" loading="lazy" style="max-width:100%;height:auto;">
+                      </div>
+                      <div class="pdetail">
+                        <h2><a href="https://www.linkedin.com/in/demaheadley/" target="_blank">Dema Headley</a></h2>
+                        <h3>SVP Digital Banking <a href="https://www.climatefirstbank.com/" target="_blank">Climate First Bank</a></h3>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="pthumb">
+                        <img src="images/scottNguyen.png" alt="Scott Nguyen" loading="lazy" style="max-width:100%;height:auto;">
+                      </div>
+                      <div class="pdetail">
+                        <h2><a href="https://www.linkedin.com/in/scottvinhnguyen/" target="_blank">Scott Nguyen</a></h2>
+                        <h3>Moderator <a href="https://www.bodhi.solar/" target="_blank"><br>Bodhi</a></h3>
+                      </div>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+
+    <!-- SPONSOR SECTION -->
+    <div class="row-fluid-wrapper row-depth-1 row-number-4">
+      <div class="row-fluid">
+        <div class="span12 widget-span">
+          <div class="sponsor-section">
+            <div class="container">
+              <ul class="d-flex align-center flex-wrap justify-space-between">
+                <li>Sponsored by</li>
+                <li>
+                  <a href="https://www.greentechrenewables.com/" target="_blank" rel="noopener">
+                    <img src="images/greentech-1.png" alt="Greentech Renewables" loading="lazy" style="max-width:100%;height:auto;">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.climatefirstbank.com/" target="_blank" rel="noopener">
+                    <img src="images/climate_logo.png" alt="Climate First Bank" loading="lazy" style="max-width:100%;height:auto;">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.bodhi.solar/" target="_blank" rel="noopener">
+                    <img src="images/bodhi_Blue_225.png" alt="Bodhi" loading="lazy" style="max-width:100%;height:auto;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WEBINAR CONTENT AREA (About + Register) -->
+    <div class="row-fluid-wrapper row-depth-1 row-number-5">
+      <div class="row-fluid">
+        <div class="span12 widget-span webinar-content-area">
+          <div class="row-fluid-wrapper row-depth-1 row-number-6">
+            <div class="row-fluid">
+              <div class="span12 widget-span container">
+                <div class="row-fluid-wrapper row-depth-1 row-number-7">
+                  <div class="row-fluid">
+
+                    <!-- About text -->
+                    <div class="span6 widget-span webinar-text">
+                      <h3>About the webinar</h3>
+                      <p><span>Pre-paid leases are suddenly at the center of residential solar conversations in 2026. With the end of 25D and homeowner economics shifting, many installers are asking the same question: </span><strong><span>When do pre-paid leases win over loans, and what does that mean for close rates, cash flow, and operations?</span></strong></p>
+                      <p><span>In this special webinar, we're teaming up with heavyweights in the residential solar industry to share:</span></p>
+                      <ul>
+                        <li><span>When pre-paid leases beat loans and when they don't</span></li>
+                        <li><span>What changes operationally after the sale</span></li>
+                        <li><span>How to position it with homeowners</span></li>
+                      </ul>
+                      <p><span>The event will also include a Q&amp;A where solar installers can ask their burning questions and get tactical advice they can use immediately.</span></p>
+                    </div>
+
+                    <!-- Register form -->
+                    <div id="register" class="span6 widget-span webinar-register">
+                      <div class="row-fluid-wrapper row-depth-1 row-number-8">
+                        <div class="row-fluid">
+                          <div class="span12 widget-span">
+                            <h3>Register for this webinar</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-fluid-wrapper row-depth-1 row-number-9">
+                        <div class="row-fluid">
+                          <div class="span12 widget-span webinar-form">
+                            <div id="hs_form_target_module_1630601620363472"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end body-container -->
+</div><!-- end body-container-wrapper -->
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<div class="footer-container-wrapper">
+  <div class="footer-container container-fluid">
+    <div class="row-fluid-wrapper row-depth-1 row-number-1">
+      <div class="row-fluid">
+        <div class="span12 widget-span footer-bottom">
+          <div class="row-fluid-wrapper row-depth-1 row-number-2">
+            <div class="row-fluid">
+              <div class="span12 widget-span container">
+                <div class="row-fluid-wrapper row-depth-1 row-number-3">
+                  <div class="row-fluid">
+                    <div class="span12 widget-span col-text">
+                      <p>Have questions or want to get in touch? <a href="mailto:info@bodhi.solar" style="color:#FFD110;">Contact us.</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SMOOTH SCROLL
+     ============================================================ -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.smooth-scroll').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        var href = this.getAttribute('href');
+        if (href && href.charAt(0) === '#') {
+          e.preventDefault();
+          var target = document.getElementById(href.slice(1));
+          if (target) {
+            var headerHeight = 80;
+            var top = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  });
+</script>
+
+<!-- ============================================================
+     HUBSPOT FORM EMBED
+     ============================================================ -->
+<script charset="utf-8" type="text/javascript" src="https://js-na2.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    portalId: "4854223",
+    formId: "1ea72a33-5c6a-4a80-9cda-db88fd62152c",
+    region: "na2",
+    target: "#hs_form_target_module_1630601620363472",
+    redirectUrl: "https://webinar.bodhi.solar/thank-you.html",
+    cssClass: "hs-form stacked hs-custom-form"
+  });
+</script>
 
 </body>
 </html>
